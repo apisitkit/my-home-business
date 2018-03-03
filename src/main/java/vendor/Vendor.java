@@ -8,6 +8,7 @@ public class Vendor {
 	private String addrInBill;
 	private String tel;
 	private String telInBill;
+	private String active;
 	public int getId() {
 		return id;
 	}
@@ -49,5 +50,11 @@ public class Vendor {
 	}
 	public void setTelInBill(String telInBill) {
 		this.telInBill = telInBill;
+	}
+	public String getActive() {
+		return active;
+	}
+	public void setActive(String active) {
+		this.active = active;
 	}
 }
